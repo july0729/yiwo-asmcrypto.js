@@ -48,5 +48,8 @@
     "prettier": "prettier --single-quote --trailing-comma all --write \"src/**/*.js\" \"src/**/*.ts\" --print-width 120"
   },
   "typings": "./dist_es8/entry-export_all.d.ts",
-  "dependencies": {}
+  "dependencies": {},
+    "browser":{
+ "crypto": false
+  }
 }
