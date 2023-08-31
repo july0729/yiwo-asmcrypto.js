@@ -1,17 +1,20 @@
 {
-  "name": "asmcrypto.js",
-  "version": "2.3.2",
-  "description": "Asm.js implementation of WebCrypto API",
-  "homepage": "https://github.com/asmcrypto/asmcrypto.js",
+  "name": "yiwo-asmcrypto.js",
+  "version": "1.0.0",
+  "description": "Asm.js implementation of WebCrypto API,A fork to fit crypto error",
   "main": "asmcrypto.all.js",
   "module": "asmcrypto.all.es8.js",
   "license": "MIT",
   "author": {
+    "name": "july0729",
+    "email": "1145663021@qq.cpm"
+  },
+  "contributors": [
+    {
     "name": "Ádám Lippai",
     "email": "adam@rigo.sk",
     "web": "https://github.com/alippai"
-  },
-  "contributors": [
+    },
     {
       "name": "Artem S Vybornov",
       "email": "vybornov@gmail.com",
@@ -25,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/asmcrypto/asmcrypto.js.git"
+    "url": "https://github.com/july0729/yiwo-asmcrypto.js.git"
   },
   "devDependencies": {
     "@types/chai": "^4.1.7",
